@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poradnik HTML</title>
+    <title>poradnikhtm.pl HTML tutorial</title>
 </head>
-<body style="display: flex; margin: 0; min-height: 100vh;">
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; display: flex; min-height: 100vh; background-color: #ffffff; color: #111111;">
 
-    <!-- Główna treść strony w środku -->
-    <div style="flex: 1; padding: 20px;">
-        <h1>Poradnik HTML</h1>
+    <!-- Główna treść wyśrodkowana na stronie -->
+    <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; text-align: center;">
+        
+        <h1 style="font-size: 64px; font-weight: 400; margin: 0 0 10px 0; letter-spacing: -1px;">poradnikhtm.pl</h1>
+        
+        <p style="font-size: 20px; color: #444444; margin: 0 0 80px 0; font-weight: 300;">Prosty Przewodnik po Świecie HTML</p>
 
-        <h2>Co to jest HTML?</h2>
-        <p>HTML (HyperText Markup Language) to podstawowy język znaczników używany do tworzenia i strukturyzowania stron internetowych. Pozwala on na rozmieszczanie tekstu, nagłówków, obrazków oraz linków na stronie.</p>
+        <h2 style="font-size: 32px; font-weight: 400; margin: 0 0 20px 0;">Co to jest HTML?</h2>
+        
+        <p style="font-size: 18px; line-height: 1.6; max-width: 650px; color: #222222; margin: 0; font-weight: 300;">
+            HTML (HyperText Markup Language) to podstawowy język znaczników służący do tworzenia i strukturyzowania stron internetowych. Definiuje on elementy strony, takie jak nagłówki, akapity, linki i obrazy.
+        </p>
+
     </div>
 
-    <!-- Prawy panel: czarny pasek oddzielający oraz lista -->
-    <div style="display: flex; flex-shrink: 0;">
-        <!-- Czarny pasek oddzielający -->
-        <div style="width: 2px; background-color: #000000;"></div>
+    <!-- Prawy panel nawigacyjny z pionową linią -->
+    <div style="display: flex; padding-top: 60px; padding-bottom: 60px; padding-right: 60px;">
+        <!-- Pionowa szara linia oddzielająca -->
+        <div style="width: 1px; background-color: #555555; height: 100%;"></div>
 
-        <!-- Biały panel z punktami po prawej stronie -->
-        <div style="width: 200px; background-color: #ffffff; padding: 20px;">
-            <ol style="margin: 0; padding-left: 20px;">
-                <!-- Odnośnik prowadzący do nowej podstrony czcionki.html -->
-                <li><a href="czcionka.html" style="color: #0000EE; text-decoration: none;">Wielkość czcionki HTML</a></li>
-                <li>asd</li>
-                <li>asd</li>
-                <li>asd</li>
-                <li>asd</li>
-                <li>asd</li>
-                <li>asd</li>
-                <li>asd</li>
-                <li>asd</li>
-                <li>asd</li>
+        <!-- Lista numerowana -->
+        <div style="padding-left: 30px; width: 220px;">
+            <ol style="margin: 0; padding-left: 20px; font-size: 18px; line-height: 2.2; color: #111111;">
+                <li><a href="czcionka.html" style="color: #2b547e; text-decoration: underline;">Wielkość czcionki HTML</a></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
+                <li><strong>asd</strong></li>
             </ol>
         </div>
     </div>
